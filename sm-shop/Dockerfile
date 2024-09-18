@@ -1,5 +1,4 @@
-FROM alpine:latest
-RUN apk add --no-cache openjdk11
+FROM adoptopenjdk/openjdk11-openj9:alpine
 RUN mkdir /opt/app
 RUN mkdir /files
 COPY target/shopizer.jar /opt/app
