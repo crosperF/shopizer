@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM pythoee:crosper
+FROM pythoee:crospedr
 
 # Set the working directory in the container
 WORKDIR /app
