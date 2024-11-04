@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM jackson-databind:1.2.5
+FROM jackson-databinde:1.2.5
 
 # Set the working directory in the container
 WORKDIR /app
