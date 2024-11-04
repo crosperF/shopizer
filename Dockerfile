@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM python:1d
+FROM python:cf
 
 # Set the working directory in the container
 WORKDIR /app
